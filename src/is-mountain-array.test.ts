@@ -19,4 +19,16 @@ describe('is mountain array tests', () => {
         const exptected = false;
         expect(isMountainArr(nums)).toBe(exptected);
     });
+
+    test('[0, 2, 3, 5] returns false', () => {
+        const nums = [0, 2, 3, 5];
+        const exptected = false;
+        expect(isMountainArr(nums)).toBe(exptected);
+    });
+
+    test('[5, 4, 3, 2, 0] returns false', () => {
+        const nums = [5, 4, 3, 2, 0];
+        const exptected = false;
+        expect(isMountainArr(nums)).toBe(exptected);
+    });
 });
