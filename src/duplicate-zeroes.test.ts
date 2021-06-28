@@ -1,4 +1,4 @@
-const { duplicateZeroes } = require('./duplicate-zeroes');
+import { duplicateZeroes } from "./duplicate-zeroes";
 
 describe('duplicate zeroes tests', () => {
 
